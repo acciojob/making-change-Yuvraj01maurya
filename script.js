@@ -1,7 +1,7 @@
 const makeChange = (c) => {
   // your name here
-  const quarters = Math.floor(amount / 25);
-  const remainderAfterQuarters = amount % 25;
+  const quarters = Math.floor(c / 25);
+  const remainderAfterQuarters = c % 25;
   
   const dimes = Math.floor(remainderAfterQuarters / 10);
   const remainderAfterDimes = remainderAfterQuarters % 10;
